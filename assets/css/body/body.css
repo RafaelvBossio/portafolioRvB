@@ -1,0 +1,24 @@
+.contenedor{
+    display: grid;
+    grid-template-areas:
+    "navegacion"
+    "main"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 10vh auto 5vh;
+}
+
+.header{
+    grid-area: navegacion;
+    position: absolute;
+}
+
+.content{
+    grid-area: main;
+    background: var(--fondo-primario);
+}
+
+.footer{
+    grid-area: footer;
+    background: var(--fondo-segundario);
+}

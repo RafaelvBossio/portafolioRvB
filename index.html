@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rafael v Bossio</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/body/body.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/header/logo.css">
+    <link rel="stylesheet" href="./assets/css/header/titulo.css">
+    <link rel="stylesheet" href="./assets/css/header/navegacion.css">
+    <link rel="stylesheet" href="./assets/css/content/content.css">
+    <link rel="stylesheet" href="./assets/css/content/sobreMi.css">
+    <link rel="stylesheet" href="./assets/css/content/skills.css">
+    <link rel="stylesheet" href="./assets/css/content/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/content/formacion.css">
+    <link rel="stylesheet" href="./assets/css/content/proyectos.css">
+    <link rel="stylesheet" href="./assets/css/content/contacto.css">
 </head>
-<body>
-    <header class="header"></header>
-    <main class="content"></main>
-    <footer class="footer"></footer>
+
+<body class="contenedor">
+    <header class="header">
+        <div class="logo">
+            <img class="logo__imagen" src="./assets/images/logoNegro.png" alt="Logo personal">
+            <h1 class="logo__titulo">Rafael Bossio</h1>
+        </div>
+
+        <nav class="navegacion">
+            <ul class="navegacion__content">
+                <li class="navegacion__item"><a href="#sobreMi" class="navegacion__link">Sobre mí</a></li>
+                <li class="navegacion__item"><a href="#skills" class="navegacion__link">Skills</a></li>
+                <li class="navegacion__item"><a href="#hobbies" class="navegacion__link">Hobbies</a></li>
+                <li class="navegacion__item"><a href="#formacion" class="navegacion__link">Formación</a></li>
+                <li class="navegacion__item"><a href="#proyectos" class="navegacion__link">Proyectos</a></li>
+                <li class="navegacion__item"><a href="#contacto" class="navegacion__link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <section class="sobreMi box" id="sobreMi">
+            <h2>sobre mí</h2>
+        </section>
+        <section class="skills box" id="skills">
+            <h2>skills</h2>
+        </section>
+        <section class="hobbies box" id="hobbies">
+            <h2>hobbies</h2>
+        </section>
+        <section class="formacion box" id="formacion">
+            <h2>formacion</h2>
+        </section>
+        <section class="proyectos box" id="proyectos">
+            <h2>proyectos</h2>
+        </section>
+        <section class="contacto box" id="contacto">
+            <h2>contacto</h2>
+        </section>
+        <button id="btn">Curriculo PDF</button>
+    </main>
+    <footer class="footer">
+        <h1 id="footer">Footer</h1>
+    </footer>
+    <script src="./assets/js/index.js"></script>
 </body>
+
 </html>

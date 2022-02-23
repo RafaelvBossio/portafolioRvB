@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    background: var(--fondo-tercero);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    padding: 0 2rem;
+    position: fixed;
+    top: 0px;
+}

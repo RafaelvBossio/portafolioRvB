@@ -1,0 +1,16 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.logo__imagen{
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+}
+.logo__titulo{
+    color: var(--color-primario);
+    font-size: 16px;
+}
