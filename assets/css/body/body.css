@@ -5,20 +5,23 @@
     "main"
     "footer";
     grid-template-columns: auto;
-    grid-template-rows: 10vh auto 5vh;
+    grid-template-rows: auto auto 10vh;
 }
 
 .header{
     grid-area: navegacion;
-    position: absolute;
 }
 
 .content{
     grid-area: main;
-    background: var(--fondo-primario);
+    background: var(--fondo-primero);
 }
 
 .footer{
     grid-area: footer;
-    background: var(--fondo-segundario);
+    background: var(--fondo-segundo);
+}
+
+*{
+    box-sizing: border-box;
 }

@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css/body/body.css">
     <link rel="stylesheet" href="./assets/css/header/header.css">
-    <link rel="stylesheet" href="./assets/css/header/logo.css">
-    <link rel="stylesheet" href="./assets/css/header/titulo.css">
-    <link rel="stylesheet" href="./assets/css/header/navegacion.css">
     <link rel="stylesheet" href="./assets/css/content/content.css">
     <link rel="stylesheet" href="./assets/css/content/sobreMi.css">
     <link rel="stylesheet" href="./assets/css/content/skills.css">
@@ -25,21 +22,39 @@
 
 <body class="contenedor">
     <header class="header">
-        <div class="logo">
-            <img class="logo__imagen" src="./assets/images/logoNegro.png" alt="Logo personal">
-            <h1 class="logo__titulo">Rafael Bossio</h1>
+        <div class="navegacion">
+            <div class="logo">
+                <img class="logo__imagen" src="./assets/images/logoNegro.png" alt="Logo personal">
+                <h1 class="logo__titulo">Rafael Bossio</h1>
+            </div>
+            <nav class="rutas">
+                <ul class="rutas__content">
+                    <li class="rutas__item"><a href="#sobreMi" class="rutas__link">Sobre mí</a></li>
+                    <li class="rutas__item"><a href="#skills" class="rutas__link">Skills</a></li>
+                    <li class="rutas__item"><a href="#hobbies" class="rutas__link">Hobbies</a></li>
+                    <li class="rutas__item"><a href="#formacion" class="rutas__link">Formación</a></li>
+                    <li class="rutas__item"><a href="#proyectos" class="rutas__link">Proyectos</a></li>
+                    <li class="rutas__item"><a href="#contacto" class="rutas__link">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <nav class="navegacion">
-            <ul class="navegacion__content">
-                <li class="navegacion__item"><a href="#sobreMi" class="navegacion__link">Sobre mí</a></li>
-                <li class="navegacion__item"><a href="#skills" class="navegacion__link">Skills</a></li>
-                <li class="navegacion__item"><a href="#hobbies" class="navegacion__link">Hobbies</a></li>
-                <li class="navegacion__item"><a href="#formacion" class="navegacion__link">Formación</a></li>
-                <li class="navegacion__item"><a href="#proyectos" class="navegacion__link">Proyectos</a></li>
-                <li class="navegacion__item"><a href="#contacto" class="navegacion__link">Contacto</a></li>
-            </ul>
-        </nav>
+        <div class="informacion">
+            <div class="informacion__texto">
+                <h2>Hola, Mi nombre es <span>Rafael Bossio </span> y construyo paginas web</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates pariatur harum doloribus fugit
+                    illo, adipisci eaque eius modi doloremque, non culpa nobis dicta placeat eos minima quia, dolorem
+                    perspiciatis distinctio.</p>
+                <div class="informacion__sociales">
+                    <button class="informacion__sociales-link"><a href="#">GitHub</a></button>
+                    <button class="informacion__sociales-link"><a href="#">Linkedin</a></button>
+                    <button class="informacion__sociales-link"><a href="#">Instagram</a></button>
+                    <button class="informacion__sociales-link"><a href="#">Curriculo</a></button>
+                </div>
+            </div>
+            <div class="informacion__imagen">
+                <img class="img" src="./assets/images/perfil.jpg" alt="" srcset="">
+            </div>
+        </div>
     </header>
     <main class="content">
         <section class="sobreMi box" id="sobreMi">

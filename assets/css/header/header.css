@@ -1,9 +1,113 @@
 .header{
+    width: 100%;
     display: flex;
-    background: var(--fondo-tercero);
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(1px);
-    padding: 0 2rem;
-    position: fixed;
-    top: 0px;
+    flex-direction: column;
+    background: var(--fondo-primero);
+}
+
+.navegacion{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.logo__imagen{
+    width: 32px;
+    height: auto;
+    cursor: pointer;
+}
+.logo__titulo{
+    color: var(--color-primero);
+    font-size: 16px;
+}
+
+.rutas__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: end;
+    margin-right: 1rem;
+    align-items: center;
+    height: 100%;
+}
+
+.rutas__link {
+    padding: .5rem 1rem;
+    text-decoration: none;
+    color: var(--color-primero);
+    transition: all .4s;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: lowercase;
+}
+
+.rutas__link:hover {
+    border-radius: 2.5rem;
+    background: rgb(2, 154, 255);
+    color: var(--color-segundo);
+}
+
+.informacion{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.informacion__texto span{
+    font-family: 'Lobster Two', cursive;
+    font-size: larger;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: rgb(231, 17, 63);
+}
+
+.informacion__sociales{
+    font-size: 16px;
+    display: flex;
+    width: 70%;
+    justify-content: start;
+    border: none;
+}
+
+.informacion__sociales-link{
+    padding: .5rem 1rem;
+    border-radius: 25px;
+    border: none;
+    background: transparent;
+}
+
+.informacion__sociales-link a{
+    color: var(--color-primero);
+}
+
+.informacion__sociales-link::after{
+    content: "  \2924";
+}
+
+.informacion__sociales-link:first-child{
+    padding-left: 0px;
+}
+
+.informacion__sociales-link a:hover, .informacion__sociales-link:hover{
+    color: blueviolet;
+}
+
+
+.informacion__imagen .img{
+    width: 368px;
+    height: 368px;
+    border-radius: 100%;
+    border: 5px solid tomato;
 }
