@@ -1,5 +1,11 @@
 .sobreMi{
-    height: 100vh;
-    padding-top: 0px;
     background: var(--fondo-segundo);
+}
+
+.sobremi__contenedor{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0px;
+    width: 90%;
+    margin: 0px auto;
 }

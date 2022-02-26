@@ -1,4 +1,7 @@
-var contenido_logo = document.querySelector(".logo__imagen");
+var contenido_logo = document.querySelector("#arriba");
 contenido_logo.addEventListener("click", function(event){
-    document.getElementById('sobreMi').scrollIntoView();
+    document.getElementById('header').scrollIntoView();
 });
+
+var p = document.querySelector("#p");
+console.log(p.textContent.length)

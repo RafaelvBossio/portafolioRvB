@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rafael v Bossio</title>
+    <link rel="shortcut icon" href="./assets/images/header/LogoBlanco.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -13,58 +14,143 @@
     <link rel="stylesheet" href="./assets/css/header/header.css">
     <link rel="stylesheet" href="./assets/css/content/content.css">
     <link rel="stylesheet" href="./assets/css/content/sobreMi.css">
-    <link rel="stylesheet" href="./assets/css/content/skills.css">
-    <link rel="stylesheet" href="./assets/css/content/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/content/skillsYhobbes.css">
     <link rel="stylesheet" href="./assets/css/content/formacion.css">
     <link rel="stylesheet" href="./assets/css/content/proyectos.css">
     <link rel="stylesheet" href="./assets/css/content/contacto.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
 </head>
 
 <body class="contenedor">
-    <header class="header">
+    <header class="header" id="header">
         <div class="navegacion">
-            <div class="logo">
-                <img class="logo__imagen" src="./assets/images/logoNegro.png" alt="Logo personal">
-                <h1 class="logo__titulo">Rafael Bossio</h1>
-            </div>
-            <nav class="rutas">
-                <ul class="rutas__content">
-                    <li class="rutas__item"><a href="#sobreMi" class="rutas__link">Sobre mí</a></li>
-                    <li class="rutas__item"><a href="#skills" class="rutas__link">Skills</a></li>
-                    <li class="rutas__item"><a href="#hobbies" class="rutas__link">Hobbies</a></li>
-                    <li class="rutas__item"><a href="#formacion" class="rutas__link">Formación</a></li>
-                    <li class="rutas__item"><a href="#proyectos" class="rutas__link">Proyectos</a></li>
-                    <li class="rutas__item"><a href="#contacto" class="rutas__link">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="informacion">
-            <div class="informacion__texto">
-                <h2>Hola, Mi nombre es <span>Rafael Bossio </span> y construyo paginas web</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates pariatur harum doloribus fugit
-                    illo, adipisci eaque eius modi doloremque, non culpa nobis dicta placeat eos minima quia, dolorem
-                    perspiciatis distinctio.</p>
-                <div class="informacion__sociales">
-                    <button class="informacion__sociales-link"><a href="#">GitHub</a></button>
-                    <button class="informacion__sociales-link"><a href="#">Linkedin</a></button>
-                    <button class="informacion__sociales-link"><a href="#">Instagram</a></button>
-                    <button class="informacion__sociales-link"><a href="#">Curriculo</a></button>
+            <div class="navegacion__contenido">
+                <div class="contenido__logo">
+                    <img class="logo__imagen" src="./assets/images/header/logoNegro.png" alt="Logo personal">
+                    <h1 class="logo__titulo">Rafael Bossio</h1>
                 </div>
+                <nav class="contenido__rutas invisible">
+                    <ul class="rutas__contenido">
+                        <li class="rutas__item"><a href="#sobreMi" class="rutas__link">Sobre mí</a></li>
+                        <li class="rutas__item"><a href="#skills" class="rutas__link">Skills</a></li>
+                        <li class="rutas__item"><a href="#hobbies" class="rutas__link">Hobbies</a></li>
+                        <li class="rutas__item"><a href="#formacion" class="rutas__link">Formación</a></li>
+                        <li class="rutas__item"><a href="#proyectos" class="rutas__link">Proyectos</a></li>
+                        <li class="rutas__item"><a href="#contacto" class="rutas__link">Contacto</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="informacion__imagen">
-                <img class="img" src="./assets/images/perfil.jpg" alt="" srcset="">
+
+            <div class="informacion">
+                <div class="informacion__contenido">
+                    <div class="informacion__contenido-texto">
+                        <h2>Hola, Mi nombre es <span>Rafael Bossio</span> y construyo paginas web</h2>
+                        <p id="p">
+                            Soy formado en el SENA en manejo de Adoble illustrator tengo 23 años soy de Cartagena - Colombia y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.
+                        </p>
+                    </div>
+
+                    <div class="informacion__sociales">
+                        <ul class="informacion__link">
+                            <li class="informacion__item"><a href="https://github.com/RafaelvBossio"
+                                    target="_blank">GitHub</a></li>
+                            <li class="informacion__item"><a
+                                    href="https://www.linkedin.com/in/rafael-vargas-bossio-820a7912a/"
+                                    target="_blank">Linkedin</a></li>
+                            <li class="informacion__item"><a href="https://www.instagram.com/v.rafael.b/"
+                                    target="_blank">Instagram</a></li>
+                            <li class="informacion__item"><a href="#" target="_blank">Curriculo</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="informacion__imagen">
+                    <img class="img" src="./assets/images/header/perfil.jpg" alt="imagen perfil">
+                </div>
             </div>
         </div>
     </header>
+
     <main class="content">
         <section class="sobreMi box" id="sobreMi">
-            <h2>sobre mí</h2>
+            <div class="sobremi__contenedor">
+                <div class="sobremi__texto">
+                    <h2>sobre mí</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam tempora ut a eos ex voluptatum
+                        cumque aspernatur impedit esse! Quo esse numquam assumenda reiciendis dolores natus, veniam eos
+                        eveniet ipsam?</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus neque ipsa corrupti sed,
+                        repellat impedit tenetur in excepturi, cum porro, repellendus earum vero iure illo harum.
+                        Dolorem, itaque repudiandae!</p>
+                </div>
+                <div class="sobremi__imagen">
+                    <img src="./assets/images//header/firma.png" alt="firma personal">
+                </div>
+            </div>
         </section>
+
         <section class="skills box" id="skills">
-            <h2>skills</h2>
+            <div class="skills__contenedor">
+                <div class="skills__titulo"><h2>skills</h2></div>
+                <div class="skills__box">
+                    <div class="skills__item skill-html">
+                        <img src="./assets/images/skills/html3.png" alt="">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="skills__item skill-css">
+                        <img src="./assets/images/skills/css2.png" alt="">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skills__item skill-javascript">
+                        <img src="./assets/images/skills/js2.png" alt="">
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="skills__item skill-php">
+                        <img src="./assets/images/skills/php2.png" alt="">
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="skills__item skill-python">
+                        <img src="./assets/images/skills/py2.png" alt="">
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skills__item skill-illustrator">
+                        <img src="./assets/images/skills/ai2.png" alt="">
+                        <h3>Illustrator</h3>
+                    </div>
+                </div>
+            </div>
+            
         </section>
+
         <section class="hobbies box" id="hobbies">
-            <h2>hobbies</h2>
+            <div class="hobbies__contenedor">
+                <div class="hobbies__titulo"><h2>hobbies</h2></div>
+                <div class="hobbies__box">
+                    <div class="hobbies__item">
+                        <img src="./assets/images/hobbies/musica.png" alt="">
+                        <h3>Oir musica</h3>
+                    </div>
+                    <div class="hobbies__item">
+                        <img src="./assets/images/hobbies/estudiar.png" alt="">
+                        <h3>Estudiar</h3>
+                    </div>
+                    <div class="hobbies__item">
+                        <img src="./assets/images/hobbies/tv.png" alt="">
+                        <h3>Ver talevision</h3>
+                    </div>
+                    <div class="hobbies__item">
+                        <img src="./assets/images/hobbies/cantar.png" alt="">
+                        <h3>Cantar</h3>
+                    </div>
+                    <div class="hobbies__item">
+                        <img src="./assets/images/hobbies/persona.png" alt="">
+                        <h3>Conocer personas</h3>
+                    </div>
+                    <div class="hobbies__item">
+                        <img src="./assets/images/hobbies/bailar.png" alt="">
+                        <h3>Bailar</h3>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="formacion box" id="formacion">
             <h2>formacion</h2>
@@ -79,6 +165,7 @@
     </main>
     <footer class="footer">
         <h1 id="footer">Footer</h1>
+        <div class="arriba" id="arriba"></div>
     </footer>
     <script src="./assets/js/index.js"></script>
 </body>
