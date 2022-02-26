@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) { 
+    .navegacion__contenido{
+        flex-direction: row;
+        gap: 0px;
+    }
+    .logo__titulo{
+        flex-wrap: nowrap;
+    }
+    .contenido__logo{
+        width: auto;
+        justify-content: start;
+    }
+    .informacion{
+        flex-direction: row;
+    }
+    .informacion__contenido-texto{
+        padding-right: 1rem;
+    }
+
+    .informacion__item a{
+        font-size: 16px;
+    }
+    .skills__titulo, .hobbies__titulo{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .navegacion{
+        background: rebeccapurple;
+    }
+
+    .contenido__logo{
+        width: auto;
+    }
+}

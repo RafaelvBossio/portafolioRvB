@@ -7,24 +7,31 @@
 }
 
 .navegacion{
-    width: 90%;
+    width: calc(90% + 1rem);
     margin: 0px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1rem 0px;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .navegacion__contenido{
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: space-between;
     gap: .5rem;
 }
 
+.navegacion__contenido a{
+    color: var(--color-primero);
+    font-weight: bold;
+    font-family: 16px;
+}
+
 .contenido__logo{
-    width: 100%;
+    width: auto;
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -53,21 +60,22 @@
     justify-content: end;
     align-items: center;
     height: 100%;
+    gap: .2rem;
 }
 
 .rutas__link {
-    padding: .5rem 1rem;
     text-decoration: none;
     color: var(--color-primero);
-    transition: all .4s;
+    transition: all .5s;
     font-weight: bold;
     text-transform: lowercase;
+    border-bottom: 2px solid transparent;
+    padding: 5px 8px;
 }
 
 .rutas__link:hover {
-    border-radius: 2.5rem;
-    background: var(--color-tercero);
-    color: var(--color-segundo);
+    border-bottom: 2px solid var(--color-tercero);
+    color: var(--color-tercero);
 }
 
 .informacion{
@@ -75,15 +83,21 @@
     flex-direction: column-reverse;
 }
 
+.informacion__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .informacion__contenido-texto{
     width: 100%;
-    padding-right: 2rem;
     cursor: default;
 }
 
 .informacion__contenido-texto h2{
     font-size: 22px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .informacion__contenido-texto h2 > span{
@@ -138,7 +152,7 @@
 }
 
 .informacion__imagen{
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +161,6 @@
 .informacion__imagen .img{
     width: 180px;
     height: 180px;
-    margin-bottom: 1rem;
     border-radius: 100%;
     border: 2px solid var(--color-tercero);
 }

@@ -1,7 +1,6 @@
 .sobreMi{
-    background: var(--fondo-segundo);
+    background: var(--fondo-tercero);
 }
-
 .sobremi__contenedor{
     display: flex;
     flex-direction: column;
