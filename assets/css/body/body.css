@@ -14,12 +14,10 @@
 
 .content{
     grid-area: main;
-    background: var(--fondo-primero);
 }
 
 .footer{
     grid-area: footer;
-    background: var(--fondo-segundo);
 }
 
 *{

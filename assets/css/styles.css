@@ -10,10 +10,10 @@
 :root{
     --fondo-primero: #FFFFFF;
     --fondo-segundo: #f5f5f5;
-    --fondo-tercero: #C2DAEB;
+    --fondo-tercero: #eef2f5;
     --color-primero: #000000;
     --color-segundo: #ffffff;
-    --color-tercero: #B6B3E6;
+    --color-tercero: #f096bf;
 }
 
 .contenedor{
@@ -29,5 +29,5 @@ h2{
 }
 
 .visible{
-    display: inherit;
+    display: initial;
 }

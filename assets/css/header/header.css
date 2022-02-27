@@ -48,10 +48,12 @@
 .logo__titulo{
     color: var(--color-primero);
     font-size: 16px;
+    display: none;
 }
 
 .contenido__rutas{
     width: 100%;
+    display: none;
 }
 
 .rutas__contenido {
@@ -66,7 +68,7 @@
 .rutas__link {
     text-decoration: none;
     color: var(--color-primero);
-    transition: all .5s;
+    transition: all .3s;
     font-weight: bold;
     text-transform: lowercase;
     border-bottom: 2px solid transparent;
@@ -135,7 +137,7 @@
     align-items: center;
     color: var(--color-primero);
     border-bottom: 2px solid transparent;
-    transition: .2s;
+    transition: .3s;
     padding: 5px 0px;
     text-transform: lowercase;
 }

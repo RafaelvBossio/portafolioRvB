@@ -1,36 +1,72 @@
-@media screen and (min-width: 768px) { 
-    .navegacion__contenido{
+@media screen and (min-width: 768px) {
+    .navegacion__contenido {
         flex-direction: row;
         gap: 0px;
     }
-    .logo__titulo{
+
+    .logo__titulo {
         flex-wrap: nowrap;
     }
-    .contenido__logo{
+
+    .contenido__logo {
         width: auto;
         justify-content: start;
     }
-    .informacion{
+
+    .informacion {
         flex-direction: row;
     }
-    .informacion__contenido-texto{
+
+    .informacion__contenido-texto {
         padding-right: 1rem;
     }
 
-    .informacion__item a{
+    .informacion__item a {
         font-size: 16px;
     }
-    .skills__titulo, .hobbies__titulo{
+
+    .skills__titulo,
+    .hobbies__titulo {
         text-align: center;
+    }
+
+    .contenido__rutas{
+        display: none;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .navegacion{
-        background: rebeccapurple;
+
+    .contenido__logo {
+        width: auto;
     }
 
-    .contenido__logo{
-        width: auto;
+    .logo__titulo{
+        width: max-content;
+        display: block;
+    }
+
+    .contenido__rutas{
+        display: block;
+    }
+
+    .navContacto{
+        display: none;
+    }
+
+    .informacion__contenido{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .informacion__imagen {
+        width: 50%;
+        margin-left: 10%;
+        justify-content: space-around;
+    }
+
+    .informacion__imagen .img {
+        width: 327px;
+        height: 327px;
     }
 }
