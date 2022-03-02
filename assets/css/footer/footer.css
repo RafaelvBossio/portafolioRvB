@@ -15,4 +15,5 @@
     border: 2px solid var(--color-primero);
     border-radius: 50%;
     cursor: pointer;
+    display: none;
 }

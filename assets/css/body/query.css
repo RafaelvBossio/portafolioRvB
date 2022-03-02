@@ -25,12 +25,25 @@
         font-size: 16px;
     }
 
+    .informacion__imagen .img {
+        width: 227px;
+        height: 227px;
+    }
+
     .skills__titulo,
     .hobbies__titulo {
         text-align: center;
     }
 
+    .skills__item, .hobbies__item{
+        width: 30%;
+    }
+
     .contenido__rutas{
+        display: none;
+    }
+
+    .arriba{
         display: none;
     }
 }
@@ -68,5 +81,9 @@
     .informacion__imagen .img {
         width: 327px;
         height: 327px;
+    }
+
+    .arriba{
+        display: initial;
     }
 }
