@@ -46,6 +46,10 @@
     .arriba{
         display: none;
     }
+
+    .formacion__titulo{
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -85,5 +89,10 @@
 
     .arriba{
         display: initial;
+    }
+
+    .formacion__item{
+        width: calc((100% / 3) - 1rem);
+        height: auto;
     }
 }
