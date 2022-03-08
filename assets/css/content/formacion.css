@@ -17,14 +17,15 @@
 .formacion__contenido{
     width: 100%;
     margin: 1rem auto;
+    line-height: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 1rem;
 }
 
 .formacion__item{
     width: 100%;
-    margin: .5rem;
 }
 
 .formacion__item img{

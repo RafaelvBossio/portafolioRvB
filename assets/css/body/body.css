@@ -27,3 +27,8 @@
 .invisible{
     display: none;
 }
+
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+}

@@ -1,5 +1,6 @@
 .sobreMi{
     background: var(--fondo-tercero);
+    margin: 1rem 0px;
 }
 .sobremi__contenedor{
     max-width: 1000px;

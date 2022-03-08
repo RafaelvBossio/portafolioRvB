@@ -1,3 +1,31 @@
 .contacto{
-    height: 100vh;
+    margin: 2rem 0px;
+    width: 100%;
+}
+
+.contacto__titulo{
+    text-align: center;
+    margin: 1rem 0px;
+}
+
+.contacto__contenedor{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto__imagen{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.contacto__imagen img{
+    width: 100%;
+    height: auto;
+}
+
+.contacto__form{
+    width: 50%;
 }
