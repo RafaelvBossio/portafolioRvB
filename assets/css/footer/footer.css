@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    background: var(--fondo-tercero);
+    background: var(--fondo-primero);
     margin-top: 1rem;
 }
 .footer__contenedor{
