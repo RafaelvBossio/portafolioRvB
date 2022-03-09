@@ -30,11 +30,13 @@
       <div class="navegacion">
         <div class="navegacion__contenido">
           <div class="contenido__logo">
-            <img
-              class="logo__imagen"
-              src="./assets/images/header/RB_logo.svg"
-              alt="Logo personal"
-            />
+            <a href="#footer">
+              <img
+                class="logo__imagen"
+                src="./assets/images/header/RB_logo.svg"
+                alt="Logo personal"
+              />
+            </a>
           </div>
           <nav class="contenido__rutas" id="navVisible">
             <ul class="rutas__contenido">
@@ -251,12 +253,12 @@
 
       <section class="contacto box" id="contacto">
         <div class="contacto__contenedor">
-          <div class="contacto__imagen"><br></div>
+          <div class="contacto__imagen"><br /></div>
           <form class="form">
             <h2>Contacto</h2>
             <legend>
-              ¿Quieres contactarme? Complete el siguiente formulario y me pondré
-              en contacto con usted lo antes posible.
+              ¿Quieres contactarme? <br />Complete el siguiente formulario y me
+              pondré en contacto con usted lo antes posible.
             </legend>
 
             <fieldset class="form-campos">
@@ -274,15 +276,14 @@
               </div>
             </fieldset>
             <textarea
-                name="mensaje"
-                id="form_mensaje"
-                cols="25"
-                rows="6"
-                title="mensaje"
-                placeholder="Mensaje"
-              ></textarea>
+              name="mensaje"
+              id="form_mensaje"
+              cols="25"
+              rows="6"
+              title="mensaje"
+              placeholder="Mensaje"
+            ></textarea>
             <fieldset class="form-campos">
-              
               <div class="btn">
                 <input type="button" value="Enviar mensaje" />
               </div>
@@ -290,6 +291,7 @@
           </form>
         </div>
       </section>
+
       <div class="btn__cv">
         <div class="btn__cv-contenedor">
           <button class="btn__cv-btn" id="btn">Curriculo PDF</button>
@@ -297,9 +299,50 @@
       </div>
     </main>
 
-    <footer class="footer">
-      <h1 id="footer">Footer</h1>
-      <div class="arriba" id="arriba"></div>
+    <footer class="footer" id="footer">
+      <div class="footer__contenedor">
+        <div class="copyright">
+          <p>
+            Desarrollado por
+            <a
+              href="http://www.instagram.com/v.rafael.b/?hl=es-la"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Rafael Bossio</a
+            >
+            <br />
+            Copyright&copy; 2022.
+          </p>
+        </div>
+
+        <div class="footer__contenido">
+          <div class="footer__logo">
+            <a href="#header">
+              <img src="./assets/images/header/RB_logo.svg" alt="" />
+            </a>
+          </div>
+
+          <nav class="footer__rutas" id="navVisible">
+            <ul class="rutas__footer">
+              <li class="rutas__item">
+                <a href="#sobreMi" class="rutas__link">Sobre mí</a>
+              </li>
+              <li class="rutas__item">
+                <a href="#skills" class="rutas__link">Skills</a>
+              </li>
+              <li class="rutas__item">
+                <a href="#hobbies" class="rutas__link">Hobbies</a>
+              </li>
+              <li class="rutas__item">
+                <a href="#formacion" class="rutas__link">Formación</a>
+              </li>
+              <li class="rutas__item">
+                <a href="#proyectos" class="rutas__link">Proyectos</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </footer>
     <script src="./assets/js/index.js"></script>
   </body>

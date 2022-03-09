@@ -1,5 +1,5 @@
 .contacto{
-    height: 100vh;
+    height: auto;
     width: 100%;
     display: flex;
 }
@@ -9,7 +9,6 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    padding: 1rem 0px;
 }
 .contacto__imagen{
     width: 30%;
@@ -83,7 +82,7 @@
 }
 .form .btn input:hover{
     border: 2px solid var(--fondo-tercero);
-    box-shadow: inset 1px -1px .2rem var(--fondo-tercero);
+    box-shadow: inset 1px -1px .7rem var(--fondo-tercero);
 }
 .form .btn input:active{
     background: var(--fondo-tercero);
@@ -93,9 +92,10 @@
     width: 100%;
 }
 .btn__cv-contenedor{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
+
 .btn__cv-btn{
     width: 100%;
     padding: .5rem 0px;
@@ -108,7 +108,7 @@
 
 .btn__cv-btn:hover{
     border: 2px solid var(--fondo-tercero);
-    box-shadow: inset 1px -1px .4rem var(--fondo-tercero);
+    box-shadow: inset 1px -1px .7rem var(--fondo-tercero);
 }
 .btn__cv-btn:active{
     background: var(--fondo-tercero);
