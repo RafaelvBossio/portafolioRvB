@@ -1,9 +1,11 @@
 .sobreMi{
     background: var(--fondo-tercero);
     margin: 1rem 0px;
+    display: flex;
+    align-items: center;
 }
 .sobremi__contenedor{
-    max-width: 1000px;
+    max-width: 1024px;
     line-height: 1.5rem;
     display: flex;
     flex-direction: column;

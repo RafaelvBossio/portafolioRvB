@@ -8,6 +8,7 @@
 
 .proyectos__titulo {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .proyectos__contenedor {
@@ -28,16 +29,10 @@
   margin: 1rem 0px;
 }
 
-.proyecto__item-cell img {
+.proyecto__item img {
   width: 100%;
   height: auto;
-  border-radius: 25px;
-}
-
-.proyecto__item-pc img {
-  width: 100%;
-  height: auto;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 
 .proyecto h3 {
@@ -45,27 +40,14 @@
   margin: 1rem 0px;
 }
 
-@media screen and (min-width: 768px) {
-  .proyecto__item-cell img {
-    width: auto;
-    height: 500px;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .proyecto {
     flex-direction: row;
   }
 
-  .proyecto__item-cell img {
+  .proyecto__item img {
     width: 100%;
-    height: 500px;
-    padding: 0px 5px;
-  }
-
-  .proyecto__item-pc img {
-    width: 100%;
-    height: 500px;
+    height: auto;
     padding: 0px 5px;
   }
 }

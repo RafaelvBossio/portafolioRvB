@@ -13,7 +13,10 @@
     --fondo-tercero: #d1d8dd;
     --color-primero: #000000;
     --color-segundo: #ffffff;
-    --color-tercero: #f096bf;
+    --color-tercero: #232323;
+    --bg: #EAF2FD;
+    --btn-fondo-hover: #FFF8F3;
+    --btn-fondo-active: #93FFD8;
 }
 
 .contenedor{
@@ -30,4 +33,11 @@ h2{
 
 .visible{
     display: initial;
+}
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

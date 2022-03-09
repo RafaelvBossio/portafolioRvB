@@ -35,7 +35,6 @@
               src="./assets/images/header/RB_logo.svg"
               alt="Logo personal"
             />
-            <h1 class="logo__titulo" id="logo__titulo">Rafael Bossio</h1>
           </div>
           <nav class="contenido__rutas" id="navVisible">
             <ul class="rutas__contenido">
@@ -238,22 +237,12 @@
         <h2 class="proyectos__titulo">Proyectos Profecionales</h2>
         <div class="proyectos__contenedor">
           <div class="proyecto">
-            <div class="proyecto__item-cell">
-              <h3>Movil</h3>
-              <img src="./assets/images/proyectos/encriptadorCel.jpeg" alt="" />
-            </div>
-            <div class="proyecto__item-pc">
-              <h3>Pc</h3>
+            <div class="proyecto__item">
               <img src="./assets/images/proyectos/encriptadorPc.jpeg" alt="" />
             </div>
           </div>
           <div class="proyecto">
-            <div class="proyecto__item-cell">
-              <h3>Movil</h3>
-              <img src="./assets/images/proyectos/encriptadorCel.jpeg" alt="" />
-            </div>
-            <div class="proyecto__item-pc">
-              <h3>Pc</h3>
+            <div class="proyecto__item">
               <img src="./assets/images/proyectos/encriptadorPc.jpeg" alt="" />
             </div>
           </div>
@@ -261,15 +250,51 @@
       </section>
 
       <section class="contacto box" id="contacto">
-        <h2 class="contacto__titulo">Contacto</h2>
         <div class="contacto__contenedor">
-          <div class="contacto__imagen">
-            <img src="./assets/images/contacto/contacto.png" alt="">
-          </div>
-          <div class="contacto__form"></div>
+          <div class="contacto__imagen"><br></div>
+          <form class="form">
+            <h2>Contacto</h2>
+            <legend>
+              ¿Quieres contactarme? Complete el siguiente formulario y me pondré
+              en contacto con usted lo antes posible.
+            </legend>
+
+            <fieldset class="form-campos">
+              <div class="form-input">
+                <label for="form_nombre">Nombre</label>
+                <input type="text" name="nombre" id="form_nombre" />
+              </div>
+              <div class="form-input">
+                <label for="form_correo">Correo</label>
+                <input type="email" name="correo" id="form_correo" />
+              </div>
+              <div class="form-input">
+                <label for="form_asunto">Asunto</label>
+                <input type="text" name="asunto" id="form_asunto" />
+              </div>
+            </fieldset>
+            <textarea
+                name="mensaje"
+                id="form_mensaje"
+                cols="25"
+                rows="6"
+                title="mensaje"
+                placeholder="Mensaje"
+              ></textarea>
+            <fieldset class="form-campos">
+              
+              <div class="btn">
+                <input type="button" value="Enviar mensaje" />
+              </div>
+            </fieldset>
+          </form>
         </div>
       </section>
-      <button id="btn">Curriculo PDF</button>
+      <div class="btn__cv">
+        <div class="btn__cv-contenedor">
+          <button class="btn__cv-btn" id="btn">Curriculo PDF</button>
+        </div>
+      </div>
     </main>
 
     <footer class="footer">

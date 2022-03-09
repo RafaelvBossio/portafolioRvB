@@ -2,12 +2,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    flex-direction: column;
+    align-items: center;
     background: var(--fondo-primero);
 }
 
 .navegacion{
-    width: calc(90% + 1rem);
+    width: 90%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,6 @@
 .logo__imagen{
     width: 32px;
     height: auto;
-    cursor: pointer;
 }
 
 .logo__titulo{

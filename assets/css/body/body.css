@@ -6,6 +6,7 @@
     "footer";
     grid-template-columns: auto;
     grid-template-rows: auto auto 10vh;
+    background: var(--bg);
 }
 
 .header{
@@ -26,9 +27,4 @@
 
 .invisible{
     display: none;
-}
-
-body{
-    max-width: 1024px;
-    margin: 0 auto;
 }

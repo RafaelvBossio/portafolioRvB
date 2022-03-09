@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background: var(--fondo-tercero);
+    background: var(--fondo-primero);
     min-width: 150px;
     max-width: 100%;
     border-radius: .5rem;
@@ -37,8 +37,7 @@
 }
 
 .skills__item:hover, .hobbies__item:hover{
-    background: var(--color-tercero);
-    border-radius: 1.5rem;
+    background: var(--fondo-tercero);
 }
 
 .skills__item img, .hobbies__item img{
