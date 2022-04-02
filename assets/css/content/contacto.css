@@ -1,3 +1,6 @@
+a{
+    color: var(--color-primero);
+}
 .contacto{
     height: auto;
     width: 100%;
@@ -10,18 +13,18 @@
     display: flex;
     align-items: center;
 }
-.contacto__imagen{
-    width: 30%;
-    min-height: 500px;
-    background: url(https://i.ibb.co/TqqH0SZ/contacto.png) no-repeat center;
-    background-size: cover;
-}
+
 .form{
     width: 70%;
+    margin: auto;
     height: auto;
-    padding: 0px 1rem;
+    padding: 0px 1rem 0px 1rem;
     display: flex;
     flex-flow: column wrap;
+}
+.form > h2{
+    text-align: center;
+    margin-bottom: 1rem;
 }
 .form fieldset{
     padding: 0px;

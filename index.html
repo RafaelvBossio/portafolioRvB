@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rafael v Bossio</title>
-    <link rel="shortcut icon" href="./assets/images/header/RB_logoB.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/header/RB_logoB.svg"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/botones.css" />
     <link rel="stylesheet" href="./assets/css/body/body.css" />
     <link rel="stylesheet" href="./assets/css/header/header.css" />
     <link rel="stylesheet" href="./assets/css/content/content.css" />
@@ -69,9 +74,7 @@
                 paginas web
               </h2>
               <p id="p">
-                Soy formado en el SENA en manejo de Adoble illustrator tengo 23
-                años soy de Cartagena - Colombia y actualmente estoy
-                participando en el proyecto Oracle ONE en Alura Latam.
+                Tengo 23 años, Soy de Cartagena - Colombia. Soy formado en el SENA en manejo de Adoble illustrator y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.
               </p>
             </div>
 
@@ -97,7 +100,7 @@
                   >
                 </li>
                 <li class="informacion__item">
-                  <a href="#" target="_blank">Curriculo</a>
+                  <a href="./RptConsulta.pdf" download="Rafael Vargas Bossio" target="_blank">Curriculo</a>
                 </li>
               </ul>
             </div>
@@ -119,20 +122,21 @@
           <div class="sobremi__texto">
             <h2>sobre mí</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-              tempora ut a eos ex voluptatum cumque aspernatur impedit esse! Quo
-              esse numquam assumenda reiciendis dolores natus, veniam eos
-              eveniet ipsam?
+              Hola me presento, soy Rafael Vargas Bossio. Soy de Cartagena -
+              Colombia, tengo 23 años. <br> El valor que me representa es el
+              respeto. soy una persona amable, responsable, persistente y
+              alegre.
             </p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
-              accusamus neque ipsa corrupti sed, repellat impedit tenetur in
-              excepturi, cum porro, repellendus earum vero iure illo harum.
-              Dolorem, itaque repudiandae!
+              Me gusta aprender cosas nuevas e igualmente me gusta compartir mis conocimientos con los demas.
+              tengo conocimineto en leguajes de programacion como lo son PHP, Python, Java y me apaciona todo lo relacionado con la web.
             </p>
           </div>
           <div class="sobremi__imagen">
-            <img src="https://i.ibb.co/wBz6CKg/firma.png" alt="firma personal" />
+            <img
+              src="https://i.ibb.co/wBz6CKg/firma.png"
+              alt="firma personal"
+            />
           </div>
         </div>
       </section>
@@ -150,7 +154,10 @@
               <h3>CSS</h3>
             </div>
             <div class="skills__item skill-javascript">
-              <img src="https://i.ibb.co/rGtSDYV/js2.png" alt="javascript logo" />
+              <img
+                src="https://i.ibb.co/rGtSDYV/js2.png"
+                alt="javascript logo"
+              />
               <h3>Javascript</h3>
             </div>
             <div class="skills__item skill-php">
@@ -232,11 +239,16 @@
       </section>
 
       <section class="proyectos box" id="proyectos">
-        <h2 class="proyectos__titulo">Proyectos Profecionales</h2>
+        <h2 class="proyectos__titulo">Proyectos</h2>
         <div class="proyectos__contenedor">
           <div class="proyecto">
             <div class="proyecto__item">
               <img src="https://i.ibb.co/NWb2rjP/encriptador-Pc.jpg" alt="" />
+            </div>
+          </div>
+          <div class="proyecto">
+            <div class="proyecto__item">
+              <img src="https://i.ibb.co/prY4551/juegoWin.png" alt="" />
             </div>
           </div>
         </div>
@@ -244,7 +256,7 @@
 
       <section class="contacto box" id="contacto">
         <div class="contacto__contenedor">
-          <div class="contacto__imagen"><br /></div>
+          
           <form class="form">
             <h2>Contacto</h2>
             <legend>
@@ -255,15 +267,29 @@
             <fieldset class="form-campos">
               <div class="form-input">
                 <label for="form_nombre">Nombre</label>
-                <input type="text" name="nombre" id="form_nombre" />
+                <input
+                  type="text"
+                  name="nombre"
+                  id="form_nombre"
+                  pattern="([a-zA-z]{+})"
+                  title="El campo no puede estar vacio y no menos de 5 caracteres"
+                  required
+                />
               </div>
               <div class="form-input">
                 <label for="form_correo">Correo</label>
-                <input type="email" name="correo" id="form_correo" />
+                <input
+                  type="email"
+                  name="correo"
+                  id="form_correo"
+                  pattern="((^[a-zA-Z0-9_])(\w+)(@)(\w{5,8})(\.[A-Za-z]{2,3}))"
+                  title="Ejemplo: minombre@correo.com"
+                  required
+                />
               </div>
               <div class="form-input">
                 <label for="form_asunto">Asunto</label>
-                <input type="text" name="asunto" id="form_asunto" />
+                <input type="text" name="asunto" id="form_asunto" pattern="[\w\s]{5,}" required/>
               </div>
             </fieldset>
             <textarea
@@ -271,12 +297,14 @@
               id="form_mensaje"
               cols="25"
               rows="6"
-              title="mensaje"
+              title="El campo de puede tener menos de 10 caracteres"
+              pattern="[\w\s]{10,}"
               placeholder="Mensaje"
+              required
             ></textarea>
             <fieldset class="form-campos">
-              <div class="btn">
-                <input type="button" value="Enviar mensaje" />
+              <div class="botones">
+                <button class="btn primero" type="submit" id="cv"><p>enviar</p></button>
               </div>
             </fieldset>
           </form>
@@ -284,8 +312,8 @@
       </section>
 
       <div class="btn__cv">
-        <div class="btn__cv-contenedor">
-          <button class="btn__cv-btn" id="btn">Curriculo PDF</button>
+        <div class="botones">
+          <button class="btn primero" id="btn" href="./rafael.txt" dowload="Rfa"><p><a href="./RptConsulta.pdf" download="Rafael Vargas Bossio" target="_blank" rel="noopener noreferrer">Curriculo PDF</a></p></button>
         </div>
       </div>
     </main>
@@ -336,5 +364,6 @@
       </div>
     </footer>
     <script src="./assets/js/index.js"></script>
+    <script src="./assets/js/contacto.js"></script>
   </body>
 </html>

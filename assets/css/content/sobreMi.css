@@ -1,15 +1,17 @@
 .sobreMi{
     background: var(--fondo-tercero);
-    margin: 1rem 0px;
+    margin: 0rem 0px 1rem 0px;
     display: flex;
     align-items: center;
 }
 .sobremi__contenedor{
-    max-width: 1024px;
     line-height: 1.5rem;
     display: flex;
     flex-direction: column;
-    padding: 1rem 0px;
-    width: 90%;
+    padding: 2rem 0px;
+    width: 85%;
     margin: 0px auto;
+}
+.sobremi__texto{
+    max-width: 700px;
 }
