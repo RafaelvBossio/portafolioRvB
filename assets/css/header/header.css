@@ -160,8 +160,13 @@
 }
 
 .informacion__imagen .img{
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    border: 2px solid var(--color-tercero);
+    width: 50%;
+    margin-bottom: 1rem;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 2px 5px 40px lightblue;
+    transition: all .5s;
+}
+.informacion__imagen .img:hover{
+    box-shadow: 2px 5px 40px lightcoral;
 }

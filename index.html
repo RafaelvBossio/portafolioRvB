@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="./assets/css/content/contacto.css" />
     <link rel="stylesheet" href="./assets/css/footer/footer.css" />
     <link rel="stylesheet" href="./assets/css/body/query.css" />
+
+    <script src="./assets/js/certificados.js" defer></script>
   </head>
 
   <body class="contenedor">
@@ -74,7 +76,9 @@
                 paginas web
               </h2>
               <p id="p">
-                Tengo 23 años, Soy de Cartagena - Colombia. Soy formado en el SENA en manejo de Adoble illustrator y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.
+                Tengo 23 años, Soy de Cartagena - Colombia. Soy formado en el
+                SENA en manejo de Adoble illustrator y actualmente estoy
+                participando en el proyecto Oracle ONE en Alura Latam.
               </p>
             </div>
 
@@ -100,7 +104,12 @@
                   >
                 </li>
                 <li class="informacion__item">
-                  <a href="./RptConsulta.pdf" download="Rafael Vargas Bossio" target="_blank">Curriculo</a>
+                  <a
+                    href="./cv-RafaelvBossio.pdf"
+                    download="Rafael Vargas Bossio"
+                    target="_blank"
+                    >Curriculo</a
+                  >
                 </li>
               </ul>
             </div>
@@ -108,7 +117,7 @@
           <div class="informacion__imagen">
             <img
               class="img"
-              src="./assets/images/header/perfil.jpg"
+              src="./assets/images/header/perfilPortafolio.jpg"
               alt="imagen perfil"
             />
           </div>
@@ -122,14 +131,16 @@
           <div class="sobremi__texto">
             <h2>sobre mí</h2>
             <p>
-              Hola me presento, soy Rafael Vargas Bossio. Soy de Cartagena -
-              Colombia, tengo 23 años. <br> El valor que me representa es el
-              respeto. soy una persona amable, responsable, persistente y
-              alegre.
+              Hola me presento, soy Rafael Alberto Vargas Bossio. Soy de Cartagena -
+              Colombia, tengo 23 años.
+              El valor que me representa es el respeto. soy una persona amable,
+              responsable, persistente y dedicado.
             </p>
             <p>
-              Me gusta aprender cosas nuevas e igualmente me gusta compartir mis conocimientos con los demas.
-              tengo conocimineto en leguajes de programacion como lo son PHP, Python, Java y me apaciona todo lo relacionado con la web.
+              Me gusta aprender cosas nuevas e igualmente me gusta compartir mis
+              conocimientos con los demas. tengo conocimineto en leguajes de
+              programacion como lo son PHP, Python, Java y me apasiona todo lo
+              relacionado con la web.
             </p>
           </div>
           <div class="sobremi__imagen">
@@ -214,24 +225,33 @@
           <div class="formacion__contenido">
             <div class="formacion__item">
               <img
-                src="./assets/images/certificados/desarrolloPersonal.jpg"
+                id="cert1"
+                src="./assets/images/certificados/principianteProgramacion2.jpg"
                 alt="Certificado"
                 class="formacion__imagen"
+                title="Certificado desarrollo personal"
+                onclick="pantallaCompleta(this.src)"
               />
             </div>
 
             <div class="formacion__item">
               <img
-                src="./assets/images/certificados/illustrator.jpg"
+                id="cert2"
+                src="./assets/images/certificados/udea.jpg"
                 alt="Certificado"
                 class="formacion__imagen"
+                title="certificado manejo de adobe illustrator"
+                onclick="pantallaCompleta(this.src)"
               />
             </div>
             <div class="formacion__item">
               <img
-                src="./assets/images/certificados/principianteProgramacion2.jpg"
+                id="cert3"
+                src="./assets/images/certificados/desarrolloPersonal.jpg"
                 alt="Certificado"
                 class="formacion__imagen"
+                title="certificado principiante en programacion"
+                onclick="pantallaCompleta(this.src)"
               />
             </div>
           </div>
@@ -243,12 +263,26 @@
         <div class="proyectos__contenedor">
           <div class="proyecto">
             <div class="proyecto__item">
-              <img src="https://i.ibb.co/NWb2rjP/encriptador-Pc.jpg" alt="" />
+              <a
+                href="https://rafaelvbossio.github.io/Encriptador/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="pagina encriptador"
+              >
+                <img src="https://i.ibb.co/NWb2rjP/encriptador-Pc.jpg" />
+              </a>
             </div>
           </div>
           <div class="proyecto">
             <div class="proyecto__item">
-              <img src="https://i.ibb.co/prY4551/juegoWin.png" alt="" />
+              <a
+                href="https://rafaelvbossio.github.io/juego-ahorcado/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="pagina juego del ahorcado"
+              >
+                <img src="https://i.ibb.co/prY4551/juegoWin.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
@@ -256,7 +290,6 @@
 
       <section class="contacto box" id="contacto">
         <div class="contacto__contenedor">
-          
           <form class="form">
             <h2>Contacto</h2>
             <legend>
@@ -289,7 +322,13 @@
               </div>
               <div class="form-input">
                 <label for="form_asunto">Asunto</label>
-                <input type="text" name="asunto" id="form_asunto" pattern="[\w\s]{5,}" required/>
+                <input
+                  type="text"
+                  name="asunto"
+                  id="form_asunto"
+                  pattern="[\w\s]{5,}"
+                  required
+                />
               </div>
             </fieldset>
             <textarea
@@ -304,7 +343,9 @@
             ></textarea>
             <fieldset class="form-campos">
               <div class="botones">
-                <button class="btn primero" type="submit" id="cv"><p>enviar</p></button>
+                <button class="btn primero" type="submit" id="cv">
+                  <p>enviar</p>
+                </button>
               </div>
             </fieldset>
           </form>
@@ -313,7 +354,17 @@
 
       <div class="btn__cv">
         <div class="botones">
-          <button class="btn primero" id="btn" href="./rafael.txt" dowload="Rfa"><p><a href="./RptConsulta.pdf" download="Rafael Vargas Bossio" target="_blank" rel="noopener noreferrer">Curriculo PDF</a></p></button>
+          <button class="btn primero" id="btn">
+            <p>
+              <a
+                href="./cv-RafaelvBossio.pdf"
+                download="RafaelvBossio"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Curriculo PDF</a
+              >
+            </p>
+          </button>
         </div>
       </div>
     </main>
@@ -363,6 +414,7 @@
         </div>
       </div>
     </footer>
+
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/contacto.js"></script>
   </body>
