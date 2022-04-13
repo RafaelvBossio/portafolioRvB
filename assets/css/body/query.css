@@ -50,6 +50,10 @@
     .formacion__titulo{
         text-align: center;
     }
+
+    .contacto__contenedor{
+        margin: 0px 2rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -74,6 +78,8 @@
     .informacion__contenido{
         margin-left: 1rem;
         margin-right: 1rem;
+        height: 310px;
+        overflow: hidden;
     }
 
     .informacion__imagen {
@@ -93,6 +99,12 @@
 
     .formacion__item{
         width: calc((100% / 3) - 1rem);
-        height: auto;
+        height: 310px;
+        overflow: hidden;
+    }
+
+    .contacto__contenedor{
+        margin: 0px 3rem;
+        flex-direction: row;
     }
 }
