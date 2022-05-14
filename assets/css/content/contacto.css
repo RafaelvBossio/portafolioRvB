@@ -7,6 +7,7 @@
     gap: .5rem;
     padding: 1rem 1rem;
     font-family: 'Raleway', sans-serif;
+    border-radius: 1rem;
 }
 .contacto__contenedor > p{
     font-size: 16px;
