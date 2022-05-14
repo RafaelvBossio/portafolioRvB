@@ -14,6 +14,7 @@
 
 .content {
   grid-area: main;
+  padding: 0px 0px 50px 0px;
 }
 
 .footer {
@@ -26,10 +27,6 @@
 
 .invisible {
   display: none;
-}
-
-.box {
-  margin-bottom: 2rem;
 }
 
 body::-webkit-scrollbar {

@@ -33,9 +33,7 @@ h2{
     display: initial;
 }
 
-body{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main{
+    max-width: 1440px;
+    margin: auto;
 }

@@ -1,110 +1,150 @@
 @media screen and (min-width: 768px) {
-    .navegacion__contenido {
-        flex-direction: row;
-        gap: 0px;
-    }
+  .navegacion__contenido {
+    flex-direction: row;
+    gap: 0px;
+  }
 
-    .logo__titulo {
-        flex-wrap: nowrap;
-    }
+  .logo__titulo {
+    flex-wrap: nowrap;
+  }
 
-    .contenido__logo {
-        width: auto;
-        justify-content: start;
-    }
+  .contenido__logo {
+    width: auto;
+    justify-content: start;
+  }
 
-    .informacion {
-        flex-direction: row;
-    }
+  .informacion {
+    flex-direction: row;
+  }
 
-    .informacion__contenido-texto {
-        padding-right: 1rem;
-    }
+  .informacion__contenido-texto {
+    padding-right: 1rem;
+  }
 
-    .informacion__item a {
-        font-size: 16px;
-    }
+  .informacion__item a {
+    font-size: 16px;
+  }
 
-    .informacion__imagen .img {
-        width: 227px;
-        height: 227px;
-    }
+  .informacion__imagen .img {
+    width: 227px;
+    height: 227px;
+  }
 
-    .skills__titulo,
-    .hobbies__titulo {
-        text-align: center;
-    }
+  .skills__titulo,
+  .hobbies__titulo {
+    text-align: center;
+  }
 
-    .skills__item, .hobbies__item{
-        width: 30%;
-    }
+  .skills__item,
+  .hobbies__item {
+    width: 30%;
+  }
 
-    .contenido__rutas{
-        display: none;
-    }
+  .contenido__rutas {
+    display: none;
+  }
 
-    .arriba{
-        display: none;
-    }
+  .arriba {
+    display: none;
+  }
 
-    .formacion__titulo{
-        text-align: center;
-    }
+  .formacion__titulo {
+    text-align: center;
+  }
 
-    .contacto__contenedor{
-        margin: 0px 2rem;
-    }
+  .contacto__contenedor {
+    margin: 0px 2rem;
+    padding: 2rem;
+    flex-direction: row;
+  }
+  .contacto__contenedor .btn{
+      width: 30%;
+  }
+  .btn__cv {
+    width: 90%;
+    margin: auto;
+  }
+  .insignias {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .imagen_insignia {
+    width: 50%;
+  }
+  .info_insignia {
+    width: 480px;
+  }
+  .tarjeta {
+    width: 80%;
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .contenido__logo {
+    width: auto;
+  }
 
-    .contenido__logo {
-        width: auto;
-    }
+  .logo__titulo {
+    width: max-content;
+    display: block;
+  }
 
-    .logo__titulo{
-        width: max-content;
-        display: block;
-    }
+  .contenido__rutas {
+    display: block;
+  }
 
-    .contenido__rutas{
-        display: block;
-    }
+  .navContacto {
+    display: none;
+  }
 
-    .navContacto{
-        display: none;
-    }
+  .informacion__contenido {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 310px;
+    overflow: hidden;
+  }
 
-    .informacion__contenido{
-        margin-left: 1rem;
-        margin-right: 1rem;
-        height: 310px;
-        overflow: hidden;
-    }
+  .informacion__imagen {
+    width: 50%;
+    margin-left: 10%;
+    justify-content: space-around;
+  }
 
-    .informacion__imagen {
-        width: 50%;
-        margin-left: 10%;
-        justify-content: space-around;
-    }
+  .informacion__imagen .img {
+    width: 327px;
+    height: 327px;
+  }
 
-    .informacion__imagen .img {
-        width: 327px;
-        height: 327px;
-    }
+  .arriba {
+    display: initial;
+  }
 
-    .arriba{
-        display: initial;
-    }
+  .formacion__item {
+    width: calc((100% / 3) - 1rem);
+    height: 310px;
+    overflow: hidden;
+  }
 
-    .formacion__item{
-        width: calc((100% / 3) - 1rem);
-        height: 310px;
-        overflow: hidden;
-    }
-
-    .contacto__contenedor{
-        margin: 0px 3rem;
-        flex-direction: row;
-    }
+  .contacto__contenedor {
+    margin: 0px 3rem;
+    flex-direction: row;
+  }
+  .contacto__contenedor .btn {
+    width: 30%;
+  }
+  .btn__cv {
+    width: 90%;
+    margin: auto;
+  }
+  .insignias {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .info_insignia {
+    width: 280px;
+  }
+  .tarjeta {
+    width: calc((100% - 2rem) / 3);
+  }
 }
