@@ -6,7 +6,6 @@
     "footer";
   grid-template-columns: auto;
   grid-template-rows: auto auto auto;
-  background: url(../../images/fondoBody.png);
 }
 
 .header {
