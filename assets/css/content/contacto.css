@@ -1,13 +1,12 @@
 .contacto__contenedor{
-    background: var(--fondo-primero);
+    background: var(--fondo-segundo);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding: 1rem 0px;
     gap: .5rem;
-    padding: 1rem 1rem;
     font-family: 'Raleway', sans-serif;
-    border-radius: 1rem;
 }
 .contacto__contenedor > p{
     font-size: 16px;

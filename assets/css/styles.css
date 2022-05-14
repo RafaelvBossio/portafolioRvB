@@ -11,14 +11,10 @@
     --fondo-primero: #FFFFFF;
     --fondo-segundo: #f5f5f5;
     --fondo-tercero: #d1d8dd;
-    --fondo-cuarto: #ff0051;
-    --fondo-quinto: #6441ff;
+    --fondo-cuarto: #6441ff;
     --color-primero: #000000;
     --color-segundo: #ffffff;
     --color-tercero: #232323;
-    --bg: #EAF2FD;
-    --btn-fondo-hover: #FFF8F3;
-    --btn-fondo-active: #93FFD8;
 }
 
 .contenedor{
