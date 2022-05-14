@@ -88,7 +88,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    color: var(--color-segundo);
+    color: var(--color-primero);
 }
 
 .informacion__contenido-texto{
