@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --fuente-roboto: "Roboto", sans-serif;
+  --color-transparente: transparent;
+  --color-negro: #000000;
+  --color-blanco: #ffffff;
+  --color-azul: #6e74cf;
+  --color-rojo: #ff4949;
+  --color-verde: #47c285;
+  --color-amarillo: #caf810;
+  --color-naranjado: #ff8d29;
+  --color-purpura: #f806cc;
+  --color-rosado: #f73d93;
+  --border-radio: 5px;
+  --fondo-primero: #ffffff;
+  --fondo-segundo: #eee8e8;
+  --fondo-tercero: #d1d8dd;
+  --fondo-cuarto: #6441ff;
+  --color-primero: #000000;
+  --color-segundo: #ffffff;
+  --color-tercero: #232323;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: var(--border-radio);
+  text-decoration: none;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: bold;
+  font-family: var(--fuente-roboto);
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  border: 2px solid transparent;
+  transition: all 0.3s;
+}
+.btn:active {
+  transform: scale(0.97);
+}
+
+.a {
+  text-decoration: none;
+  height: min-content;
+  width: min-content;
+  font-family: var(--fuente-roboto);
+  font-size: 1vmax;
+  font-weight: 300;
+  letter-spacing: 1px;
+  padding: 0.3rem;
+  border-radius: var(--border-radio);
+}
+
+.negro {
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  border: 2px solid var(--color-negro);
+}
+.negro:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-negro);
+  border: 2px solid var(--color-negro);
+}
+
+.blanco {
+  background-color: var(--color-blanco);
+  color: var(--color-negro);
+  border: 2px solid var(--color-blanco);
+}
+.blanco:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-blanco);
+  border: 2px solid var(--color-blanco);
+}
+
+.azul {
+  background-color: var(--color-azul);
+  color: var(--color-blanco);
+  border: 2px solid var(--color-azul);
+}
+.azul:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-azul);
+  border: 2px solid var(--color-azul);
+}
+
+.rojo {
+  background-color: var(--color-rojo);
+  color: var(--color-blanco);
+  border: 2px solid var(--color-rojo);
+}
+.rojo:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-rojo);
+  border: 2px solid var(--color-rojo);
+}
+
+.verde {
+  background-color: var(--color-verde);
+  color: var(--color-blanco);
+  border: 2px solid var(--color-verde);
+}
+.verde:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-verde);
+  border: 2px solid var(--color-verde);
+}
+
+.amarillo {
+  background-color: var(--color-amarillo);
+  color: var(--color-negro);
+  border: 2px solid var(--color-amarillo);
+}
+.amarillo:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-amarillo);
+  border: 2px solid var(--color-amarillo);
+}
+
+.naranjado {
+  background-color: var(--color-naranjado);
+  color: var(--color-blanco);
+  border: 2px solid var(--color-naranjado);
+}
+.naranjado:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-naranjado);
+  border: 2px solid var(--color-naranjado);
+}
+
+.purpura {
+  background-color: var(--color-purpura);
+  color: var(--color-blanco);
+  border: 2px solid var(--color-purpura);
+}
+.purpura:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-purpura);
+  border: 2px solid var(--color-purpura);
+}
+
+.rosado {
+  background-color: var(--color-rosado);
+  color: var(--color-blanco);
+  border: 2px solid var(--color-rosado);
+}
+.rosado:hover {
+  background-color: var(--color-transparente);
+  color: var(--color-rosado);
+  border: 2px solid var(--color-rosado);
+}

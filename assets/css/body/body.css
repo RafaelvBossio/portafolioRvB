@@ -14,7 +14,7 @@
 
 .content {
   grid-area: main;
-  padding: 0px 0px 50px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .footer {
@@ -31,4 +31,11 @@
 
 body::-webkit-scrollbar {
   display: none;
+}
+.titulo{
+  width: 100%;
+  text-align: left;
+}
+section{
+  padding: 2rem 0px;
 }

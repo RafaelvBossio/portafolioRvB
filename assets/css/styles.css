@@ -7,16 +7,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-:root{
-    --fondo-primero: #FFFFFF;
-    --fondo-segundo: #f5f5f5;
-    --fondo-tercero: #d1d8dd;
-    --fondo-cuarto: #6441ff;
-    --color-primero: #000000;
-    --color-segundo: #ffffff;
-    --color-tercero: #232323;
-}
-
 .contenedor{
     width: 100%;
 }

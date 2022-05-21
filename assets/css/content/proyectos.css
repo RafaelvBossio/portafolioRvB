@@ -2,11 +2,8 @@
   width: 90%;
   margin: auto;
 }
-.proyectos__titulo{
-  text-align: center;
-}
 .proyectos__contenedor{
-  width: 100%;
+  width: 95%;
   margin: 1rem auto;
 }
 .insignias{
@@ -15,17 +12,18 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 1rem;
 }
 .tarjeta{
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: var(--fondo-segundo);
+  background-color: var(--fondo-primero);
   transition: all .5s;
 }
 .tarjeta:hover{
-  box-shadow: 0px 10px 15px var(--fondo-tercero);
+  background-color: var(--fondo-segundo);
 }
 .insignia{
   display: flex;

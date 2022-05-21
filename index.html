@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="./assets/css/normalize.css" />
   <link rel="stylesheet" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
-  <link rel="stylesheet" href="./assets/css/botones.css" />
+  <link rel="stylesheet" href="./assets/css/btns.css">
   <link rel="stylesheet" href="./assets/css/body/body.css" />
   <link rel="stylesheet" href="./assets/css/header/header.css" />
   <link rel="stylesheet" href="./assets/css/content/content.css" />
@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="./assets/css/content/formacion.css" />
   <link rel="stylesheet" href="./assets/css/content/proyectos.css" />
   <link rel="stylesheet" href="./assets/css/content/contacto.css" />
+  <link rel="stylesheet" href="./assets/css/content/curriculo.css">
   <link rel="stylesheet" href="./assets/css/footer/footer.css" />
   <link rel="stylesheet" href="./assets/css/body/query.css" />
 
@@ -123,7 +124,7 @@
 
     <section class="skills box" id="skills">
       <div class="skills__contenedor">
-        <div class="skills__titulo">
+        <div class="titulo">
           <h2>Skills</h2>
         </div>
         <div class="skills__box">
@@ -157,7 +158,7 @@
 
     <section class="hobbies box" id="hobbies">
       <div class="hobbies__contenedor">
-        <div class="hobbies__titulo">
+        <div class="titulo">
           <h2>Hobbies</h2>
         </div>
         <div class="hobbies__box">
@@ -190,51 +191,59 @@
     </section>
 
     <section class="formacion box" id="formacion">
-      <h2 class="formacion__titulo">Formacion Academica</h2>
       <div class="formacion__contenedor">
-        <div class="formacion__contenido">
-          <div class="formacion__item">
-            <img id="cert1" src="./assets/images/certificados/principianteProgramacion2.jpg" alt="Certificado"
-              class="formacion__imagen" title="Certificado desarrollo personal" onclick="pantallaCompleta(this.src)" />
-          </div>
+        <div class="titulo">
+          <h2>Formacion Academica</h2>
+        </div>
+        <div class="formacion__contenedor">
+          <div class="formacion__contenido">
+            <div class="formacion__item">
+              <img id="cert1" src="./assets/images/certificados/principianteProgramacion2.jpg" alt="Certificado"
+                class="formacion__imagen" title="Certificado desarrollo personal"
+                onclick="pantallaCompleta(this.src)" />
+            </div>
 
-          <div class="formacion__item">
-            <img id="cert2" src="./assets/images/certificados/udea.jpg" alt="Certificado" class="formacion__imagen"
-              title="certificado manejo de adobe illustrator" onclick="pantallaCompleta(this.src)" />
-          </div>
-          <div class="formacion__item">
-            <img id="cert3" src="./assets/images/certificados/desarrolloPersonal.jpg" alt="Certificado"
-              class="formacion__imagen" title="certificado principiante en programacion"
-              onclick="pantallaCompleta(this.src)" />
+            <div class="formacion__item">
+              <img id="cert2" src="./assets/images/certificados/udea.jpg" alt="Certificado" class="formacion__imagen"
+                title="certificado manejo de adobe illustrator" onclick="pantallaCompleta(this.src)" />
+            </div>
+            <div class="formacion__item">
+              <img id="cert3" src="./assets/images/certificados/desarrolloPersonal.jpg" alt="Certificado"
+                class="formacion__imagen" title="certificado principiante en programacion"
+                onclick="pantallaCompleta(this.src)" />
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="proyectos" id="proyectos">
-      <h2 class="proyectos__titulo box">Proyectos e Insignias</h2>
+      <h2 class="titulo box">Proyectos e Insignias</h2>
       <div class="proyectos__contenedor ">
         <ul class="insignias">
           <li class="tarjeta">
             <div class="insignia">
               <img class="imagen_insignia" src="./assets/images/insignias/cuatro.png" alt="">
-              <p class="info_insignia">Insignia conseguida al completar el proyecto: <span>Juego del Ahoracado</span></p>
+              <p class="info_insignia">Insignia conseguida al completar el proyecto: <span>Juego del Ahoracado</span>
+              </p>
             </div>
-            <a href="https://rafaelvbossio.github.io/juego-ahorcado/" target="_blank" class="btn tercero">Visitar</a>
+            <a href="https://rafaelvbossio.github.io/juego-ahorcado/" target="_blank" class="btn azul">Visitar</a>
           </li>
           <li class="tarjeta">
             <div class="insignia">
               <img class="imagen_insignia" src="./assets/images/insignias/dos.png" alt="">
-              <p class="info_insignia">Insignia conseguida al completar el proyecto: <span>Encriptador de Texto</span></p>
+              <p class="info_insignia">Insignia conseguida al completar el proyecto: <span>Encriptador de Texto</span>
+              </p>
             </div>
-            <a href="https://rafaelvbossio.github.io/Encriptador/" target="_blank" class="btn tercero">Visitar</a>
+            <a href="https://rafaelvbossio.github.io/Encriptador/" target="_blank" class="btn azul">Visitar</a>
           </li>
           <li class="tarjeta">
             <div class="insignia">
               <img class="imagen_insignia" src="./assets/images/insignias/tres.png" alt="">
-              <p class="info_insignia">Insignia conseguida al completar el proyecto: <span>E-commerce AluraGeek</span></p>
+              <p class="info_insignia">Insignia conseguida al completar el proyecto: <span>E-commerce AluraGeek</span>
+              </p>
             </div>
-            <a href="https://rafaelvbossio.github.io/tiendaGeek/" target="_blank" class="btn tercero">Visitar</a>
+            <a href="https://rafaelvbossio.github.io/tiendaGeek/" target="_blank" class="btn azul">Visitar</a>
           </li>
         </ul>
       </div>
@@ -244,16 +253,16 @@
       <div class="contacto__contenedor">
         <p>¿Estas interesad@ en contactarme?<br>Lo puede hacer a través de correo o de cualquiera de mis redes sociales.
         </p>
-        <a class="btn primero" href="mailto:rafaelvargasbossio99@gmail.com">Enviar correo</a>
+        <a class="btn verde" href="mailto:rafaelvargasbossio99@gmail.com">Enviar correo</a>
+      </div>
+      <div class="btn__cv box">
+        <div class="curriculo">
+          <a class="btn azul" href="./cv-RafaelvBossio.pdf" download="RafaelvBossio" target="_blank"
+            rel="noopener noreferrer">Descargar curriculo PDF</a>
+        </div>
       </div>
     </section>
 
-    <div class="btn__cv box">
-      <div class="botones">
-        <a class="btn primero" href="./cv-RafaelvBossio.pdf" download="RafaelvBossio" target="_blank"
-          rel="noopener noreferrer">Curriculo PDF</a>
-      </div>
-    </div>
   </main>
 
   <footer class="footer box" id="footer">
@@ -300,6 +309,7 @@
 
   <script src="./assets/js/index.js"></script>
   <script src="./assets/js/contacto.js"></script>
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </body>
 
 </html>

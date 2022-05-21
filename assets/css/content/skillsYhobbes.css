@@ -1,5 +1,5 @@
 .skills, .hobbies{
-    max-width: 1440px;
+    width: 100%;
     margin: 1rem auto;
 }
 
@@ -8,10 +8,6 @@
     margin: 0px auto;
     display: flex;
     flex-direction: column;
-}
-
-.skills__titulo, .hobbies__titulo{
-    width: 100%;
 }
 
 .skills__box, .hobbies__box{

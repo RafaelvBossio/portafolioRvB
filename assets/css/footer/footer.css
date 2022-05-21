@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
-    background: var(--fondo-primero);
-    margin-top: 1rem;
+    background: var(--fondo-segundo);
+    padding-top: 3rem;
 }
 .footer__contenedor{
     width: 90%;
@@ -30,9 +30,6 @@
     width: auto;
     display: flex;
     gap: 1rem;
-}
-.btn__cv{
-    margin: auto 1rem;
 }
 
 @media screen and (max-width: 768px) {
