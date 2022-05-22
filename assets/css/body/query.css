@@ -61,7 +61,7 @@
       width: 30%;
   }
   .btn__cv {
-    width: 90%;
+    width: 80%;
     margin: auto;
   }
   .insignias {
@@ -140,6 +140,9 @@
   .insignias {
     flex-direction: row;
     gap: 1rem;
+  }
+  .imagen_insignia{
+    width: 70%;
   }
   .info_insignia {
     width: 280px;

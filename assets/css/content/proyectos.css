@@ -12,18 +12,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 1rem;
 }
 .tarjeta{
   display: flex;
   flex-direction: column;
-  width: 100%;
-  padding: 1rem;
+  width: 90%;
+  margin: auto;
   border-radius: 1rem;
-  background-color: var(--fondo-primero);
+  background-color: var(--fondo-segundo);
   transition: all .5s;
 }
 .tarjeta:hover{
-  background-color: var(--fondo-segundo);
+  transform: scale(1.04);
 }
 .insignia{
   display: flex;
@@ -33,11 +34,12 @@
 }
 .info_insignia{
   margin: 1rem;
-  color: var(--color-primero);
+  color: var(--color-negro);
   text-align: center;
+  transition: color .5s;
 }
 .imagen_insignia{
-  width: 100%;
+  width: 50%;
 }
 span{
   font-weight: bold;
