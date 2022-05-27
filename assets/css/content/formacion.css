@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: var(--fondo-segundo);
 }
 
 .formacion__contenedor{
@@ -21,10 +22,47 @@
 
 .formacion__item{
     width: 100%;
+    transition: .5s;
+    position: relative;
+    border-radius: 1rem;
+}
+
+.formacion__item:hover{
+    transform: scale(1.04);
 }
 
 .formacion__item img{
     width: 100%;
     height: auto;
     cursor: pointer;
+}
+
+.PantallaCompleta{
+    width: 100%;
+    height: 20%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+    color: var(--color-negro);
+    background-color: transparent;
+    transition: all .5s;
+    position: absolute;
+    top: 0;
+    bottom: 10;
+    left: 50;
+    right: 0;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.formacion__item:hover .PantallaCompleta{
+    opacity: 100%;
+    height: 5%;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(173, 216, 230, 0.644);
+    backdrop-filter: blur(5px);
 }

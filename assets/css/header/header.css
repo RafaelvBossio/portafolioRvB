@@ -97,7 +97,6 @@
 }
 
 .informacion__contenido-texto h2{
-    font-size: 22px;
     font-weight: bold;
 }
 
@@ -141,12 +140,6 @@
     text-transform: lowercase;
 }
 
-.informacion__item a::after{
-    content: "\16CF";
-    margin-left: 5px;
-    transform: rotate(45deg);
-}
-
 .informacion__item a:hover{
     color: var(--fondo-cuarto);
     padding: .3rem;
@@ -166,7 +159,4 @@
     height: auto;
     border-radius: 50%;
     transition: all .5s;
-}
-.informacion__imagen .img:hover{
-    box-shadow: 2px 5px 40px lightcoral;
 }

@@ -35,7 +35,12 @@ body::-webkit-scrollbar {
 .titulo{
   width: 100%;
   text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 section{
   padding: 2rem 0px;
+}
+i{
+  margin: auto 5px;
 }

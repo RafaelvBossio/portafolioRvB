@@ -13,5 +13,9 @@
     margin: 0px auto;
 }
 .sobremi__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 16px;
     max-width: 700px;
 }

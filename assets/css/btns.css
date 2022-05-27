@@ -6,27 +6,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --color-transparente: transparent;
-  --color-negro: #000000;
-  --color-blanco: #ffffff;
-  --color-azul: #6e74cf;
-  --color-rojo: #ff4949;
-  --color-verde: #47c285;
-  --color-amarillo: #caf810;
-  --color-naranjado: #ff8d29;
-  --color-purpura: #f806cc;
-  --color-rosado: #f73d93;
-  --border-radio: 5px;
-  --fondo-primero: #ffffff;
-  --fondo-segundo: #eee8e8;
-  --fondo-tercero: #d1d8dd;
-  --fondo-cuarto: #6441ff;
-  --color-primero: #000000;
-  --color-segundo: #ffffff;
-  --color-tercero: #232323;
-}
-
 .btn {
   width: 100%;
   padding: 0.7rem 1rem;
