@@ -32,6 +32,10 @@
     gap: 1rem;
 }
 
+.copyright a{
+    font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
     .footer__contenido{
         flex-direction: column-reverse;
