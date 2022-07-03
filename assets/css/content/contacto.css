@@ -14,11 +14,17 @@
     gap: 1rem;
     font-family: 'Raleway', sans-serif;
 }
+.contacto__contenedor > p >  a:hover{
+    border-radius: .3rem;
+    background-color: white;
+    padding: 2px;
+}
 .contacto__contenedor > p{
     font-size: 18px;
     font-weight: 500;
     text-align: left;
     line-height: 20px;
+    transition: .5s;
 }
 .primero p a{
     color: rgb(15, 16, 36);
